@@ -67,4 +67,16 @@ public class Usuario {
     public void setImagen(File imagen) {
         this.imagen = imagen;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", cumpleaños=" + cumpleaños +
+                ", email='" + email + '\'' +
+                ", imagen=" + imagen +
+                '}';
+    }
 }
